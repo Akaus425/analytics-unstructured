@@ -11,8 +11,41 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 # --------------------------------------------------
 # PAGE + DICTIONARY
 # --------------------------------------------------
-st.set_page_config(page_title="Lost in Slang", page_icon="💬", layout="wide")
-st.title("💬 Lost in Slang")
+st.set_page_config(page_title="SlangSense | Lost in Slang", page_icon="💬", layout="wide")
+st.markdown(
+    """
+    <style>
+      .stApp { background: #101113; }
+      [data-testid="stHeader"] { background: rgba(16,17,19,0.92); }
+      h1, h2, h3 { color: #f7f7f7; }
+      p, label, [data-testid="stCaptionContainer"] { color: #d7d7d7; }
+      div.stButton > button[kind="primary"] {
+        background: #e62117; color: white; border: 1px solid #e62117;
+        border-radius: 10px; padding: 0.62rem 1.1rem; font-weight: 650;
+      }
+      div.stButton > button[kind="primary"]:hover {
+        background: #c91d15; border-color: #c91d15; color: white;
+      }
+      [data-testid="stMetric"] {
+        background: #191a1e; border: 1px solid #303136; border-radius: 12px; padding: 14px;
+      }
+    </style>
+    """, unsafe_allow_html=True,
+)
+st.markdown(
+    """
+    <div style="display:flex;align-items:center;gap:14px;margin:0.2rem 0 0.6rem 0;">
+      <div style="width:54px;height:54px;border-radius:16px;background:#e62117;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+        <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M8 11 Q8 5 15 5 H34 Q41 5 41 12 V27 Q41 34 34 34 H23 L13 42 V34 Q8 32 8 26 Z" fill="white"/>
+          <circle cx="18" cy="20" r="2.5" fill="#e62117"/><circle cx="25" cy="20" r="2.5" fill="#e62117"/><circle cx="32" cy="20" r="2.5" fill="#e62117"/>
+        </svg>
+      </div>
+      <div><div style="font-size:2.2rem;font-weight:800;line-height:1.1;color:#f7f7f7;">SlangSense</div>
+      <div style="font-size:0.95rem;color:#a6a6a6;margin-top:4px;">Lost in Slang</div></div>
+    </div>
+    """, unsafe_allow_html=True,
+)
 st.subheader("Is social listening misreading YouTube audiences?")
 st.write(
     "Compare VADER and RoBERTa on the same comments, investigate slang, "
@@ -192,7 +225,6 @@ def evaluate_predictions(df):
     elif "final_label" in df.columns:
         label_col = "final_label"
     else:
-        st.info("No reference-label column found. Add sentiment_label or final_label to evaluate accuracy and macro-F1.")
         return
 
     scored = df.copy()
@@ -385,7 +417,7 @@ if mode == "Analyze existing CSV":
     uploaded = st.file_uploader(
         "Optional: upload a different comments/reviews CSV",
         type=["csv"],
-        help="If you do not upload a file, the app uses reviews_dataset.csv from the repository.",
+        help="Leave this empty to use the default reviews_dataset.csv.",
     )
 
     raw = None
@@ -406,10 +438,7 @@ if mode == "Analyze existing CSV":
     else:
         df = prepare_comments(raw)
         st.success(f"Loaded {len(df):,} text rows from {dataset_source}.")
-        if "sentiment_label" in df.columns or "final_label" in df.columns:
-            st.caption("Reference labels found. Uncertain, missing, and unsupported labels will be excluded from three-class accuracy and macro-F1.")
-        else:
-            st.caption("No reference-label column found. Predictions and comparisons will run, but accuracy and macro-F1 cannot be calculated.")
+        # Evaluation metrics appear automatically only when human-reviewed labels are present.
 
         # Clear old results if the input dataset changes, preventing stale predictions.
         dataset_signature = f"{dataset_source}:{len(df)}:{'|'.join(df['comment_text'].head(3).tolist())}"
@@ -418,7 +447,7 @@ if mode == "Analyze existing CSV":
             st.session_state["csv_dataset_signature"] = dataset_signature
 
         if st.button(
-            "Run Full Dataset Evaluation (VADER + RoBERTa)",
+            "Run Sentiment Analysis",
             type="primary",
             key="run_csv_both",
         ):
@@ -435,16 +464,13 @@ if mode == "Analyze existing CSV":
             show_dashboard(add_slang_analysis(result))
         else:
             st.info(
-                "Click the button above to run both models together and "
-                "generate all comparison graphs, slang-impact analysis, "
-                "and evaluation metrics."
+                "Select Run Sentiment Analysis to compare both models and explore slang impact."
             )
 
 elif mode == "Analyze a YouTube video":
     video_url = st.text_input("YouTube video URL")
-    max_comments = st.slider("Maximum top-level comments", min_value=20, max_value=500, value=100, step=20)
-    st.caption("Requires YOUTUBE_API_KEY in Streamlit app secrets. Both models run together when you click the button.")
-    if st.button("Fetch comments + run both models", type="primary", key="run_youtube_both"):
+    max_comments = st.slider("Maximum top-level comments", min_value=20, max_value=1000, value=300, step=50)
+    if st.button("Fetch & Analyze Comments", type="primary", key="run_youtube_both"):
         match = re.search(r"(?:v=|youtu\.be/|shorts/|embed/)([A-Za-z0-9_-]{11})", video_url)
         if not match:
             st.error("Please enter a valid YouTube video URL.")
@@ -482,7 +508,9 @@ elif mode == "Analyze a YouTube video":
                         result = run_both_models(df)
                         result = add_slang_analysis(result)
                     st.session_state["youtube_result"] = result
-                    st.success(f"Retrieved and analyzed {len(result):,} comments.")
+                    st.success(f"Analyzed {len(result):,} comments (requested up to {max_comments:,}).")
+                    if len(result) < max_comments:
+                        st.caption("YouTube returned fewer accessible top-level comments than requested. The selected number is a maximum; availability depends on the video and YouTube API response.")
             except Exception as exc:
                 st.error("Unable to retrieve or analyze comments. Check the API key, quota, and video comment settings.")
                 st.caption(str(exc))
