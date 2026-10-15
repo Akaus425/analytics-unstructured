@@ -30,7 +30,10 @@ def load_slang_dictionary():
     if missing:
         raise ValueError("Dictionary missing columns: " + ", ".join(sorted(missing)))
     dictionary["term"] = dictionary["term"].fillna("").astype(str).str.lower().str.strip()
-    dictionary = dictionary[dictionary["term"] != ""].drop_duplicates("term")
+    dictionary = dictionary[dictionary["term"] != ""]
+    # Ignore single-letter alphabetic entries (for example, L and W), but keep emoji.
+    dictionary = dictionary[~dictionary["term"].str.fullmatch(r"[a-z]", na=False)]
+    dictionary = dictionary.drop_duplicates("term")
     return dictionary
 
 
