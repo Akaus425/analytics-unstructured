@@ -49,7 +49,7 @@ st.markdown(
 st.subheader("Is social listening misreading YouTube audiences?")
 st.write(
     "Compare VADER and RoBERTa on the same comments, investigate slang, "
-    "and evaluate predictions against human-reviewed labels when available."
+    "and explore how slang may affect sentiment predictions."
 )
 
 DICTIONARY_PATH = Path(__file__).parent / "slang_dictionary.csv"
