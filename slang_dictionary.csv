@@ -95,7 +95,7 @@ face card,"Someone's facial attractiveness, often in a compliment",positive,Can 
 ate down,Performed extremely well,positive,Usually praise,praise,She ate down
 no notes,Nothing to criticize; excellent as is,positive,"Usually praise, sometimes sarcastic",approval,This look? No notes
 rent free in my head,Something repeatedly occupies one's thoughts,context-dependent,"Could signal admiration, annoyance, or obsession",social,That scene lives rent free in my head
-6-7,"A deliberately ambiguous meme phrase, often used as a comedic interruption",context-dependent,Meaning is intentionally vague and depends on the meme or conversation,meme,"Bro, 6-7!"
+7-Jun,"A deliberately ambiguous meme phrase, often used as a comedic interruption",context-dependent,Meaning is intentionally vague and depends on the meme or conversation,meme,"Bro, 6-7!"
 41,A meme phrase used as a contradiction or alternative to 6-7,context-dependent,Often used as a meme rather than literal sentiment,meme,41!
 adulting,Doing tasks associated with adult responsibilities,context-dependent,"Can express pride, frustration, or humor",lifestyle,Adulting is no fun
 aesthetic,"A distinctive look, style, or vibe; sometimes visually pleasing",context-dependent,Can be praise or a neutral description,style,That outfit is so aesthetic
@@ -347,3 +347,355 @@ yassify,To use filters or styling to make an image look more glamorous,context-d
 yeet,To throw something forcefully; also a playful exclamation,context-dependent,"Action word, not fixed sentiment",expression,I yeeted the paper into the bin
 yolo,You only live once; used to justify doing something for the experience,context-dependent,Can express excitement or impulsivity,expression,"I'll try it, YOLO"
 zesty,A flamboyant or expressive style; may be used derogatorily,context-dependent,Can be teasing or insulting depending on speaker and context,identity,They called him zesty
+algospeak,Coded wording used to avoid platform moderation,neutral,Describes online language choices; sentiment comes from the message,internet,That spelling is algospeak for the platform
+almond mom,A mother perceived as promoting restrictive eating,negative,Critical internet label; does not establish a diagnosis,people,The comments called that advice almond mom behavior
+auntie,An affectionate or respectful name for an older woman,context-dependent,May be a literal relative or playful community address,address,Auntie always has the best advice
+babygirl,An affectionate label for someone seen as endearing,context-dependent,Can refer playfully to an adult man; relationship and tone matter,address,The fandom calls that serious detective babygirl
+bias,A fan's favorite member of a music group,positive,Especially K-pop usage; also has ordinary meanings,fandom,She has been my bias since their debut
+birb,A playful internet name for a bird,positive,Usually affectionate animal language,internet culture,Look at this tiny birb on the railing
+blep,A pet's tongue sticking out slightly,positive,Usually affectionate; describes an animal expression,internet culture,The kitten fell asleep with a blep
+blerd,A Black person who identifies as a nerd,neutral,Community or self-description; avoid inferring identity from appearance,identity,The convention has a panel for blerd creators
+bodied,Defeated or outperformed decisively,context-dependent,Can praise the winner or criticize the loser,gaming,Our team got bodied in the final round
+body tea,A body or appearance admired as attractive,positive,Appearance praise; may be objectifying depending on context,appearance,Her fans said the outfit was body tea
+bop,An enjoyable song; also a derogatory label for a person,context-dependent,Song praise and insulting person-directed uses differ sharply,slang,This new single is a bop
+borg,A large jug containing a mixed alcoholic drink,neutral,College drinking slang; describes the container or drink,substance,They were talking about a borg at the party
+brick,Extremely cold; also a failed shot or unusable device,context-dependent,"Weather, sports, and technology senses need different contexts",slang,It is brick outside this morning
+buns,Bad or very poor in quality,negative,Often gaming or performance criticism; can be literal bread,criticism,My aim was buns in that match
+butthurt,Overly offended or upset in the speaker's view,negative,Dismissive and mildly vulgar; may minimize real distress,criticism,He called me butthurt for disagreeing
+California sober,Avoiding some substances while still using others,neutral,Often excludes alcohol but allows cannabis; definitions vary,substance,She describes her current habits as California sober
+chalked,Ruined or no longer likely to succeed,negative,Common in gaming and sports; can be humorous exaggeration,status,After that disconnect the match was chalked
+choose violence,Act boldly or provocatively to stir a reaction,context-dependent,Often figurative banter; assess literal threats separately,expression,You chose violence with that ranking
+chud,An insulting label for an obnoxious or reactionary person,negative,Derogatory internet and political usage,insult,The thread turned into people calling each other chuds
+clanker,A mocking or hostile label for a robot or AI,negative,Usually fictional or meme usage; target matters,insult,The meme called the chatbot a clanker
+copium,Excuses or denial used to cope with disappointment,negative,Usually mocks rationalization; sometimes self-deprecating,criticism,Calling that loss a secret win is copium
+cottagecore,An aesthetic romanticizing cozy rural life,neutral,A style label rather than an inherent sentiment,style,Her room has a cottagecore look
+cuffing season,The colder months when people seek steady partners,neutral,Dating slang; not a literal restraint reference,relationships,My friends say cuffing season has started
+cuz,An informal address for a cousin or friend,context-dependent,Can also shorten because; read the sentence,address,Good to see you cuz
+do numbers,"Attract many views, sales, or other measurable successes",positive,Refers to strong performance; may be ironic,social media,That clip is going to do numbers
+doge,A playful dog meme associated with a Shiba Inu,context-dependent,May instead name a cryptocurrency or organization,meme,The caption uses the old doge meme
+doomer,Someone who expects things to end badly,negative,Often mocking or self-deprecating internet identity,identity,I become a doomer after every close loss
+enby,An informal term for a nonbinary person,neutral,Identity term; use according to the person's preference,identity,The group welcomes enby artists
+enshittification,The worsening of a service as its operator pursues profit,negative,"Vulgar criticism, especially of online platforms",criticism,The extra ads are another sign of enshittification
+FAFO,Fuck around and find out; face consequences for risky behavior,context-dependent,Vulgar warning or reaction; may sound threatening,abbreviation,Ignoring every warning was a FAFO moment
+Fanum tax,Taking a share of someone else's food as a joke,context-dependent,Also used as an absurd meme phrase without clear meaning,meme,You took my fries as Fanum tax
+femboy,A boy or man who presents in a feminine way,neutral,Self-expression label; not a reliable indicator of sexuality,identity,He describes his fashion style as femboy
+fugazi,"Fake, inauthentic, or unreliable",negative,Can also be a band name; identify the referent,criticism,Those resale tickets looked fugazi
+Gen Z stare,A blank or unresponsive look attributed to young adults,negative,Usually a generational stereotype rather than a factual assessment,social,The joke was about getting the Gen Z stare
+girlypop,An affectionate address for a friend,positive,Often playful; speaker relationship affects tone,address,You have got this girlypop
+glizzy,A hot dog; in some contexts a firearm,context-dependent,Food memes are common; inspect context for the other sense,slang,He ordered a glizzy at the game
+green flag,A reassuring sign about a person or situation,positive,Can be literal in racing or signaling contexts,relationships,Respecting boundaries is a green flag
+grindset,A mindset centered on relentless work and achievement,context-dependent,Can signal motivation or mock excessive hustle,motivation,That post is full of grindset advice
+has entered the chat,Has appeared or become relevant unexpectedly,context-dependent,Meme framing; may describe an idea rather than a person,meme,Monday traffic has entered the chat
+headass,A foolish person or a label mocking foolish behavior,negative,Vulgar insult; sometimes friendly banter,insult,That was a headass move to forget the tickets
+HMU,Hit me up; contact me,neutral,An invitation to message or call; tone comes from context,abbreviation,HMU when you get to campus
+IJBOL,I just burst out laughing,context-dependent,Can express amusement or mock someone else's misfortune,abbreviation,IJBOL at the surprise ending
+jabroni,A foolish or unimpressive person,negative,Often playful insult; associated with wrestling,insult,I felt like a jabroni after missing that shot
+jawn,"A nonspecific thing, person, place, or event",neutral,Associated with Philadelphia; referent must come from context,slang,Pass me that jawn beside the laptop
+jit,A young person or kid,context-dependent,"Regional slang, especially Florida; may be affectionate or dismissive",people,That jit has a great jump shot
+Karen,A stereotype of an entitled or demanding person,negative,Usually a disparaging label; can also be a personal name,insult,The comments labeled the rude customer a Karen
+keep it a buck,Speak honestly or directly,context-dependent,Signals sincerity; does not determine the statement's sentiment,emphasis,Keep it a buck did you like the song
+kiki,A lively social gathering or gossipy chat,positive,Common in LGBTQ+ and drag communities; may be a name,social,We had a kiki after the show
+larp,Pretend to have an identity or experience,negative,Online accusation differs from literal live-action role-playing,criticism,They said he was larping as an expert
+milkshake duck,A newly popular person later exposed for objectionable behavior,negative,Internet label for a reversal in public approval,internet culture,The viral hero became a milkshake duck overnight
+mlem,A playful word for an animal's licking motion,positive,Affectionate pet language; similar to but distinct from blep,internet culture,The puppy gave the camera a mlem
+murk,Defeat overwhelmingly; sometimes kill,context-dependent,Gaming hyperbole is common; check for literal violence,gaming,Their squad murked us in the last match
+neckbeard,A stereotype of a socially awkward or misogynistic man,negative,Insulting person label; can also describe literal facial hair,insult,The discussion devolved into neckbeard insults
+neg,Undermine someone's confidence with a disguised insult,negative,Usually discusses manipulation in dating,relationships,That backhanded compliment sounded like a neg
+nerf,Reduce something's strength or effectiveness,context-dependent,Usually a game balance change; can name a toy brand,gaming,The update will nerf that overpowered weapon
+nightmare fuel,Something intensely creepy or disturbing,negative,Usually figurative exaggeration about media or imagery,reaction,That animated doll is nightmare fuel
+nothingburger,Something judged to be trivial or overhyped,negative,Dismisses significance; may be politically contentious,criticism,The supposed scandal turned out to be a nothingburger
+opps,"Opponents, enemies, or rivals",negative,Can be playful rivalry or refer to real conflict,conflict,We ran into the opps in the tournament
+passenger princess,Someone who enjoys being driven around by others,context-dependent,Often affectionate teasing; not limited to women,lifestyle,I am the passenger princess on this road trip
+pick-me,Someone accused of seeking approval by putting others down,negative,Usually a critical social label; avoid treating the accusation as fact,criticism,That comment came across as pick-me behavior
+plot armor,A character's implausible protection from failure or harm,context-dependent,Media criticism; can be extended jokingly to real life,fandom,Only plot armor saved the hero there
+preppy,"A polished school-inspired style; online, a bright trendy aesthetic",neutral,Meaning varies by age group and fashion community,style,Her preppy haul had pink bags and bracelets
+pull,Attract someone romantically or secure a romantic connection,context-dependent,Can also be an ordinary physical action,relationships,He thinks that outfit will help him pull
+rage bait,Content designed to provoke anger and engagement,negative,Describes an inferred motive; spelling also appears hyphenated,social media,That ranking feels like rage bait
+reply guy,Someone who repeatedly leaves unwanted replies online,negative,Often implies intrusive or patronizing behavior,social media,A reply guy keeps correcting every joke
+rickroll,Trick someone into playing Rick Astley's familiar music video,context-dependent,Usually a harmless internet prank,meme,That supposed trailer was a rickroll
+ride or die,A deeply loyal friend or partner,positive,May praise loyalty or imply unhealthy unconditional support,relationships,She has been my ride or die for years
+six seven,An intentionally nonsensical meme expression,context-dependent,Often written 67; no stable sentiment without context,meme,The class shouted six seven again
+slap,"Be exceptionally enjoyable, especially of music",positive,Can also mean a literal strike; inspect the subject,praise,This soundtrack really does slap
+smoke,"Conflict, rivalry, or a challenge",context-dependent,Wanting smoke usually signals willingness to confront; can be literal,conflict,Their team does not want this smoke
+smooth-brained,Foolish or lacking thought in the speaker's view,negative,Mocking insult; not a medical description,insult,That was my smooth-brained moment of the day
+spin the block,Return to someone or retry an earlier situation,context-dependent,"May refer to dating, revisiting, or literal movement",relationships,He tried to spin the block after ghosting her
+sploot,Lie flat with the legs stretched outward,positive,Usually affectionate descriptions of pets,internet culture,The puppy did a sploot on the cool tile
+sportsball,A jokingly vague name for organized sports,context-dependent,Often signals disinterest or playful mockery,humor,I heard your sportsball team won again
+stonks,A joking spelling of stocks used in finance memes,context-dependent,"Can imply profit, bad decisions, or ironic success",meme,I saved two dollars so stonks
+Sunday scaries,Anxiety about the coming work or school week,negative,Informal description of a feeling rather than a diagnosis,emotion,The Sunday scaries started after dinner
+sussy baka,A joking label for a suspicious fool,negative,Anime and gaming meme; can be affectionate teasing,meme,You skipped the task you sussy baka
+tech bro,A stereotype of a self-assured man in technology,negative,Usually critical or ironic; sometimes self-description,people,The sketch pokes fun at tech bro jargon
+thicc,Curvy or pleasantly large in appearance,context-dependent,Often praise; can objectify people or jokingly describe objects,appearance,The comments called that fluffy cat thicc
+throw hands,Fight physically,negative,Can be figurative banter; assess the target and intent,conflict,They were joking about throwing hands over the score
+tuff,"Cool, impressive, or stylish",positive,Stylized tough; may also literally describe a rock type,praise,Those new sneakers are tuff
+twin,A close friend with similar style or personality,positive,May refer literally to a sibling,address,Thanks for the help twin
+type shit,A casual affirmation or marker of shared understanding,context-dependent,Vulgar filler; sentiment depends on the preceding statement,expression,We are keeping it relaxed type shit
+unalive,"A euphemism for die, dead, or kill",context-dependent,Often algospeak; determine meaning from the full sentence,internet,The recap says the villain was unalived
+vaguepost,Post an indirect message without explaining its target,context-dependent,Often associated with personal conflict or attention seeking,social media,She made a vaguepost about fake friends
+weeaboo,Someone accused of excessive fixation on Japanese pop culture,negative,Often derogatory; sometimes reclaimed jokingly,identity,He jokingly called himself a weeaboo after the marathon
+winter arc,A period of focused personal improvement during winter,context-dependent,Motivational internet trend; can be used ironically,motivation,My winter arc starts with a better sleep routine
+WYLL,What do you look like,neutral,Usually a request for a photo or appearance description,abbreviation,They sent WYLL after we started chatting
+YMMV,Your mileage may vary; experiences can differ,neutral,Signals that an opinion or result may not generalize,abbreviation,The app worked for me but YMMV
+zaddy,"An attractive, stylish, often older man",positive,Usually admiring; may be sexualized or teasing,appearance,The fans called the actor a zaddy
+zoomies,A sudden burst of energetic running or excitement,positive,Usually pets; can humorously describe people,emotion,The dog got the zoomies after his bath
+tea,Gossip or revealing information,context-dependent,Can be literal tea; gossip may be friendly or harmful,social,What is the tea about that reunion
+bars,Impressive lyrics or witty lines,positive,May refer literally to measures of music or physical barriers,praise,That verse has bars
+steez,An effortless personal sense of style,positive,Usually fashion or performance praise,style,Her skating has serious steez
+word up,An expression of agreement or acknowledgment,positive,Often conversational affirmation; can be a greeting,agreement,Word up that sounds like a plan
+OG,An original or respected veteran of a group,positive,Originally original gangster; not necessarily a criminal reference,identity,She is an OG in that gaming community
+soft life,"A lifestyle emphasizing ease, comfort, and reduced stress",positive,Aspirational social media phrase; can be ironic,lifestyle,I am choosing a soft life this weekend
+nepo baby,Someone whose opportunities are helped by family connections,negative,Often critical; family advantage does not establish lack of talent,people,The interview addressed the nepo baby label
+I said what I said,I stand by my statement,context-dependent,"Can signal confidence, defiance, or playful emphasis",expression,That sequel was better and I said what I said
+quiet quitting,Doing required work without taking on extra duties,context-dependent,Workplace term; usually does not mean actually resigning,behavior,The discussion framed avoiding unpaid overtime as quiet quitting
+Friyay,An excited or playful name for Friday,positive,Usually celebrates the coming weekend,expression,Friyay means pizza with the group
+L + ratio,A taunt combining a loss with online disapproval,negative,Often meme banter rather than a measured audience response,meme,The replies were full of L + ratio
+food coma,Drowsiness after a large meal,context-dependent,Usually humorous exaggeration rather than a medical coma,state,That huge lunch put me in a food coma
+adorkable,Attractively awkward or nerdy,positive,Affectionate blend of adorable and dorky,praise,His nervous introduction was adorkable
+brigading,Coordinating a group to flood or disrupt an online space,negative,Usually critical of organized interference,internet,The moderators locked the thread because of brigading
+shadow banning,Limiting an account's visibility without a clear notice,negative,May be an allegation rather than confirmed platform action,platform,The creator thinks the reach drop is shadow banning
+sealioning,Repeatedly demanding explanations under a pretense of polite inquiry,negative,Describes a perceived bad-faith debate tactic,behavior,The endless repetitive questions felt like sealioning
+hard pants,Structured pants such as jeans rather than soft lounge clothes,context-dependent,Usually humorous lifestyle language,style,This meeting requires hard pants today
+love bombing,Overwhelming someone with attention to gain influence,negative,Often relationship manipulation; enthusiasm alone does not prove intent,relationships,The story described a pattern of love bombing
+tendies,Chicken tenders; also joking slang for investment profits,context-dependent,Food and trading-meme meanings require context,meme,The trading chat celebrated imaginary tendies
+diamond hands,Holding an investment despite pressure to sell,context-dependent,Trading meme; can express praise or mock stubbornness,meme,The group called themselves diamond hands during the dip
+Irish goodbye,Leaving a social event without saying goodbye,context-dependent,Informal phrase; may be approving or critical,social,I made an Irish goodbye before the speeches
+baller,"Someone impressive, successful, or extravagantly wealthy",positive,Can also refer literally to a basketball player,praise,Booking the whole venue was a baller move
+bye Felicia,A dismissive way to tell someone to leave,negative,Pop-culture reference; sometimes playful among friends,response,He left the argument with bye Felicia
+kittenfishing,Presenting an embellished version of oneself in dating,negative,Usually milder misrepresentation than a wholly fake identity,relationships,Those heavily outdated photos felt like kittenfishing
+mantrum,An adult man's outburst framed as childish,negative,Mocking blend of man and tantrum,criticism,The comments called his shouting a mantrum
+sickening,Exceptionally impressive or glamorous,positive,Drag praise contrasts with the ordinary meaning of disgusting,praise,That runway reveal was sickening
+moots,People who follow each other on social media,neutral,Short for mutuals; often friendly community language,social media,I met some of my moots at the event
+relationship goals,A relationship admired as an ideal,positive,Often used sincerely or jokingly about couples,relationships,Their teamwork is relationship goals
+cool beans,A casual expression of approval,positive,Usually light or playful acknowledgment,approval,Cool beans I will see you at six
+do you,Act according to your own preferences,context-dependent,Can encourage independence or dismiss further discussion,expression,If you like that style do you
+dolo,Alone or without companions,neutral,Often describes doing an activity solo,social,I went to the show dolo
+streaks,Consecutive days of exchanged messages or posts,neutral,Often Snapchat; can also have ordinary meanings,platform,We kept our streaks through the holiday
+voluntold,Assigned a task as though one had volunteered,negative,Usually humorous criticism of an unwanted assignment,action,I got voluntold to organize the dinner
+beta,A person stereotyped as weak or subordinate,negative,Often insulting masculinity jargon; can be software terminology,insult,The replies used beta as a cheap insult
+shelfie,A photograph of a shelf or book collection,neutral,Social media wordplay on selfie,social media,I posted a shelfie of my new books
+throuple,A romantic relationship involving three people,neutral,Descriptive relationship term rather than a sentiment label,relationships,The show follows a throuple living together
+sadfishing,Posting distress in a way perceived as seeking attention,negative,An accusation; do not assume reported distress is insincere,behavior,Some replies unfairly dismissed her post as sadfishing
+nuggies,A playful name for chicken nuggets,positive,Usually affectionate or humorous food language,slang,We ordered nuggies after class
+uwu,A text face expressing cuteness or affection,context-dependent,"Can be sincere, playful, flirtatious, or ironic",reaction,That sleepy kitten is so uwu
+big mood,A strong expression of identification with a feeling,context-dependent,Agreement with a mood; sentiment follows the referenced content,reaction,A nap after that exam is a big mood
+receipts,"Evidence supporting a claim, often screenshots",context-dependent,Can be literal purchase records; inspect context,social,She brought receipts from the group chat
+zoomer,A member of Generation Z,context-dependent,"Can be neutral, affectionate, or dismissive",identity,The zoomer jokes went over my head
+chef's kiss,An expression of near-perfect approval,positive,"Often praises food, art, or a satisfying detail",praise,That final scene was chef's kiss
+soft girl,A feminine aesthetic emphasizing gentle colors and softness,neutral,Style or persona label; not a personality diagnosis,style,The pastel sweater matches her soft girl aesthetic
+hold my beer,Watch while I attempt something bold or foolish,context-dependent,Meme challenge; need not involve alcohol,meme,You think that jump was wild hold my beer
+spoopy,Cute or comically spooky,positive,Usually playful Halloween or internet usage,description,Those smiling ghost cookies are spoopy
+sksksk,Typed laughter or excited keyboard noise,context-dependent,"Can express amusement, embarrassment, or mockery",reaction,Sksksk I cannot believe I sent that
+VSCO girl,A social media style stereotype associated with casual fashion,context-dependent,Can be a neutral trend label or teasing stereotype,style,The costume copied the VSCO girl look
+litty,Very exciting or lively,positive,An emphatic variant of lit; can imply partying,praise,The crowd was litty by the last song
+it is what it is,An expression of acceptance or resignation,context-dependent,May be calm acceptance or disappointment,expression,We missed the train but it is what it is
+smize,Smile through the eyes,positive,Often modeling or photography language,action,The photographer asked us to smize
+ded,So amused or overwhelmed that one is figuratively dead,context-dependent,Stylized dead; usually a humorous reaction,reaction,That punchline has me ded
+regular shmegular,Ordinary or unremarkable,context-dependent,Usually playful emphasis rather than harsh criticism,description,It was a regular shmegular Tuesday
+smexy,A playful way to say attractive or sexy,positive,Often joking; can be flirtatious or objectifying,appearance,He called the new outfit smexy
+full send,Commit completely without holding back,context-dependent,Can praise enthusiasm or describe reckless action,action,We decided to full send the road trip
+headdesk,A typed gesture of frustration or disbelief,negative,Figurative image of hitting one's head on a desk,reaction,Another lost password headdesk
+updoot,A playful name for an upvote,positive,Usually Reddit or meme-community usage,internet,That helpful answer deserves an updoot
+caping,Defending someone enthusiastically or excessively,context-dependent,Often critical of unnecessary or unearned defense,social,Why are you caping for that rude comment
+edgelord,Someone who seeks attention through offensive provocation,negative,Usually a critical internet label,people,The chat got tired of the edgelord jokes
+chonky,Affectionately large or plump,positive,Mostly pet memes; comments about people may offend,description,That chonky cat fills the whole cushion
+stan,An intensely devoted fan; to support enthusiastically,context-dependent,Often positive fandom language; may imply excessive attachment,fandom,I stan her new album
+fumble the bag,Lose a valuable opportunity through a mistake,negative,"May concern money, work, or relationships",expression,He fumbled the bag by missing the interview
+goat rodeo,A chaotic or badly organized situation,negative,Humorous criticism; unrelated to GOAT as praise,description,Scheduling that group project was a goat rodeo
+side hustle,Work done for extra income outside a main job,neutral,Informal employment term; sentiment depends on context,lifestyle,Her side hustle is designing posters
+vaguebooking,Posting cryptic personal messages on Facebook,negative,Often implies attention seeking; not every indirect post qualifies,social media,The status was another round of vaguebooking
+aggy,"Irritated, aggravating, or argumentative",negative,Regional and online variant; exact target affects meaning,emotion,Everyone got aggy after the delay
+gank,"Ambush an opponent, often with extra teammates",context-dependent,Gaming strategy; may also mean steal in other contexts,gaming,Their jungler came over to gank my lane
+mandem,A group of male friends or associates,neutral,Associated with British and Caribbean-influenced speech,community,The mandem are meeting after the game
+clutch,Effective at a crucial moment,positive,Gaming and sports praise; also an ordinary noun and verb,praise,That last-second save was clutch
+cop,"Buy, obtain, or acquire something",context-dependent,Can also mean a police officer; identify the grammatical use,action,I want to cop those shoes
+weird flex but OK,A mocking response to an odd boast,negative,Usually teasing or sarcastic,response,You alphabetized your snacks weird flex but OK
+juice,"Influence, credibility, power, or energy",context-dependent,May be literal drink or refer to substances in other contexts,slang,She has enough juice to get the idea approved
+mean-mugging,Looking at someone with an intimidating glare,negative,May be playful posing rather than genuine hostility,behavior,Why are you mean-mugging the camera
+boi,A stylized spelling of boy used for playful address,context-dependent,Can also be an identity term; do not infer intended identity,address,That sleepy boi needs a nap
+baka,Fool or idiot,negative,Japanese word used in anime fandom; may be playful,insult,He called his friend a baka after the prank
+ham,An exaggeratedly energetic or intense approach,context-dependent,Often in go ham; can mean literal food or an overactor,expression,The band went ham during the encore
+gosu,A highly skilled player or expert,positive,Korean-derived gaming praise,gaming,That was a gosu-level play
+glomp,An enthusiastic hugging tackle,positive,Usually anime or fandom language; may be figurative,social,She greeted her friend with a glomp
+totes,Totally; completely,context-dependent,Playful shortening; sentiment comes from what it modifies,modifier,I am totes ready for the weekend
+wagwan,A greeting meaning what is going on,neutral,Jamaican-derived greeting; regional and cultural context matters,address,Wagwan how have you been
+humblebrag,A boast disguised as modesty or complaint,negative,Usually criticizes insincere self-presentation,behavior,That complaint about too many awards is a humblebrag
+143,A numerical code meaning I love you,positive,Based on letter counts; can also be an ordinary number,abbreviation,She ended the message with 143
+wake and bake,Use cannabis soon after waking,neutral,Substance-use slang; not an instruction or endorsement,substance,The character joked about a wake and bake routine
+plox,A playful spelling of please,neutral,Often gaming or deliberately childish internet speech,internet,Send the link plox
+zomg,An exaggerated spelling of OMG,context-dependent,Expresses surprise or excitement; can be ironic,reaction,Zomg the tickets are finally available
+food baby,A temporarily rounded stomach after eating,context-dependent,Usually humorous exaggeration,expression,That buffet gave me a food baby
+cool story bro,A sarcastic dismissal of someone's story,negative,Often signals disinterest or disbelief,response,He answered my explanation with cool story bro
+the struggle is real,A humorous acknowledgment of difficulty,context-dependent,May describe trivial frustration or genuine hardship,expression,Trying to wake up for class the struggle is real
+hot mess,A person or situation that is chaotic or disorganized,negative,Can be affectionate self-deprecation,description,My schedule is a hot mess this week
+broscience,Unsupported fitness advice passed around informally,negative,Usually critical of anecdotal claims presented as expertise,criticism,That gym tip sounds like broscience
+on fleek,Perfectly styled or exceptionally well done,positive,Often appearance praise; can be dated or ironic,praise,Her eyeliner was on fleek
+stay in your lane,Keep to your own role or area of knowledge,negative,Usually a rebuke; can also be literal driving advice,response,He told the commenters to stay in their lane
+triggered,Strongly upset or provoked,context-dependent,Can mock sensitivity or describe real trauma reactions; distinguish carefully,emotion,The joke about spoilers got everyone triggered
+woke,Socially aware; also a dismissive political label,context-dependent,"Praise, criticism, and political usage vary by speaker",identity,The reviewers disagreed over calling the movie woke
+trill,"Authentic, loyal, or impressively real",positive,Often praise associated with hip-hop usage,praise,She has stayed trill through every setback
+skinny legend,An exaggerated compliment for an admired celebrity or person,positive,Often meme praise rather than a literal body description,praise,The fan account called the singer a skinny legend
+thirst trap,A photo or post intended to attract romantic or sexual attention,context-dependent,"Can be admiring, teasing, or critical",social media,He posted a gym thirst trap
+skrrt,A sound effect for speeding away or changing direction,context-dependent,Hip-hop and meme use; can signal a quick exit,expression,The plans got awkward so skrrt I left
+sorry not sorry,An unapologetic acknowledgment of one's behavior or opinion,context-dependent,Can be playful confidence or dismissive defiance,expression,I took the last slice sorry not sorry
+good vibes,A pleasant or encouraging atmosphere,positive,Can be sincere or used ironically,emotion,The picnic was all good vibes
+issa,A stylized form of it is a,neutral,Sentiment depends on the phrase that follows,internet,Issa beautiful day for a walk
+fuego,"Excellent, exciting, or very impressive",positive,Spanish for fire; used figuratively in English slang,praise,That guitar solo was fuego
+doggo,An affectionate internet name for a dog,positive,Usually playful pet language,internet culture,That doggo looks proud of his new toy
+dog-pile,Join many others in criticizing or targeting someone,negative,Can describe coordinated harassment or an ordinary group reaction,behavior,The replies started to dog-pile the poster
+kickin' it,Relaxing or spending casual time together,positive,Often hanging out without a specific plan,social,We are just kickin' it after class
+buggin',"Acting irrationally, overreacting, or behaving strangely",negative,May be teasing; not a clinical assessment,criticism,You are buggin' if you think that price is fair
+all that,Exceptionally impressive or important,context-dependent,Positive assertion contrasts with dismissive not all that,praise,She acts like she is all that
+talk to the hand,A dismissive instruction to stop talking,negative,Usually rude or jokingly theatrical,response,He ended the debate with talk to the hand
+side character energy,Behavior associated with a supporting rather than central role,context-dependent,Can praise relaxed support or dismiss someone as unimportant,meme,His quiet jokes give side character energy
+crunchy mom,A mother associated with natural-living parenting practices,context-dependent,"Can be self-description, praise, or a stereotype",lifestyle,The post joked about her crunchy mom snack choices
+scrunchy mom,A mother blending natural-living and conventional parenting practices,neutral,A blend of crunchy and silky parenting labels,lifestyle,She calls her mixed approach scrunchy mom life
+abow,An exclamation of surprise or admiration,context-dependent,Popularized in music and TikTok; tone determines sentiment,reaction,Abow that dance move was unexpected
+quiet firing,Making a job unpleasant in the hope an employee will leave,negative,Describes a perceived workplace tactic; intent may be disputed,behavior,The team worried the missing assignments were quiet firing
+quiet hiring,Filling skill needs through existing staff or temporary workers,context-dependent,Workplace trend term; employee reactions may vary,behavior,The company used quiet hiring for the new project
+clean girl aesthetic,A polished minimalist look with simple styling,neutral,Beauty trend label; does not imply actual cleanliness,style,The slick bun fits the clean girl aesthetic
+boreout,Exhaustion or distress associated with prolonged lack of stimulation,negative,Informal workplace term; not a standalone clinical diagnosis,wellbeing,The repetitive empty shifts left her describing boreout
+rage farming,Deliberately provoking anger to gain attention or influence,negative,Often political or social media criticism,social media,That inflammatory headline looks like rage farming
+red flag,A warning sign of a possible problem,negative,Common in dating; may also be literal signaling,relationships,Lying about small things is a red flag
+gaslight,Manipulate someone into doubting their perception or memory,negative,Often used loosely online; disagreement alone does not establish manipulation,behavior,She said he tried to gaslight her about the messages
+doomscrolling,Compulsively browsing distressing online news or posts,negative,Describes a browsing habit rather than a diagnosis,behavior,I lost an hour doomscrolling before bed
+parasocial,Involving a one-sided feeling of closeness to a public figure,context-dependent,Can be descriptive or critical; not every fandom connection is harmful,social,That reaction felt unusually parasocial
+ragequit,Abruptly stop playing or participating because of anger,negative,Gaming origin; used more broadly for tasks or conversations,gaming,He ragequit after the third defeat
+smurf,An experienced player using a lower-ranked account,context-dependent,Can imply unfair matchmaking; also a fictional character,gaming,The lobby thought that new account was a smurf
+sweat,A player perceived as trying extremely hard to win,context-dependent,Can criticize intensity or acknowledge high skill,gaming,That lobby is full of sweats
+tryhard,Someone perceived as putting in excessive effort to impress or win,negative,"Usually mocking, even when the underlying effort is sincere",criticism,The chat called him a tryhard for practicing all night
+tilted,Frustrated enough that one's performance or judgment suffers,negative,Common in gaming and poker; can be literal angle,emotion,I got tilted after losing three close rounds
+buff,Increase a game's power level; also muscular,context-dependent,Gaming update and appearance senses need different contexts,gaming,The patch will buff the support characters
+tank,A character or player built to absorb damage,neutral,Can also mean fail badly or refer to a vehicle,gaming,We need a tank for this dungeon
+carry,Contribute enough to make up for weaker teammates,positive,Can praise skill or imply others underperformed,gaming,She had to carry the team through the final stage
+camp,Stay in one advantageous position waiting for opponents,context-dependent,Gaming tactic; not necessarily literal outdoor camping,gaming,They camp near the doorway every round
+pog,An expression of excitement or admiration,positive,Gaming and streaming reaction; often linked to emote culture,reaction,Pog we finally beat the boss
+poggers,An enthusiastic expression of approval or excitement,positive,Streaming slang; may also be ironic,reaction,That comeback was poggers
+ez,Easy; a boast that a win required little effort,context-dependent,Can be neutral shorthand or unsporting taunting,gaming,They typed ez after the match
+griefer,A player who deliberately spoils others' enjoyment,negative,Usually intentional disruption rather than ordinary poor play,gaming,A griefer kept blocking the team at spawn
+frag,Eliminate an opponent in a game,context-dependent,Also a game elimination count; not necessarily real violence,gaming,She got the final frag of the round
+rez,Revive a teammate or character,neutral,Gaming shortening of resurrect; other communities may use different senses,gaming,Can you rez me behind that wall
+one-shot,Defeat someone with a single hit; sometimes almost defeated,context-dependent,In shooter callouts may mean a target has very low health,gaming,That enemy is one-shot behind the crate
+cracked,Exceptionally skilled or unusually powerful,positive,Gaming praise; may instead mean damaged or illegally modified,praise,Your aim is cracked today
+bot,A player mocked for behaving mechanically or playing poorly,negative,May instead refer literally to an automated account,gaming,I played like a bot in that first round
+cheese,"Win through an easy, unusual, or exploitative tactic",context-dependent,Gaming strategy; fairness judgments vary by community,gaming,We used cheese to get past that difficult boss
+hardstuck,Unable to advance beyond a rank or level,negative,Gaming frustration; can be self-deprecating,gaming,I have been hardstuck in silver all season
+diff,A skill difference credited for a game's outcome,context-dependent,Often used in role-based taunts; can praise a teammate,gaming,The chat called that match a jungle diff
+skill issue,A dismissive claim that failure comes from poor ability,negative,Often ironic or self-mocking; may be unhelpful blame,meme,I missed the easy jump so skill issue
+hangry,Irritable because of hunger,negative,Often humorous self-description,emotion,I need a snack before I get hangry
+turnt,"Very excited, energetic, or intoxicated",context-dependent,Party slang; enthusiasm and substance-use senses overlap,status,The crowd was turnt before the first song
+turn up,Celebrate energetically or increase the excitement,positive,Can also be literal arrival or volume adjustment,social,We are going to turn up after finals
+poppin',"Lively, popular, or especially appealing",positive,"May describe an event, style, or current activity",praise,The student fair is poppin' tonight
+savage,"Boldly ruthless, sharply witty, or impressively fearless",context-dependent,Can praise a comeback or condemn cruelty; historical uses may offend,description,That comeback was savage
+hater,Someone perceived as persistently hostile or disparaging,negative,Can unfairly dismiss legitimate criticism,people,He called anyone who disliked the song a hater
+dude,An informal address or exclamation,context-dependent,"Can express friendliness, surprise, annoyance, or disbelief",address,Dude that was an amazing save
+bum,An insulting label for someone seen as lazy or inept,negative,Can also mean buttocks in British English or function as a verb,insult,I felt like a bum after missing that easy shot
+vids,An informal shortening of videos,neutral,Usually online clips; sentiment comes from the surrounding text,content,Send me the vids from the concert
+vibing,Enjoying an atmosphere or feeling in tune with something,positive,Can describe relaxed participation or compatibility,emotion,We were vibing to the playlist
+vibes,"The mood, atmosphere, or feeling associated with something",context-dependent,Positive or negative modifiers determine the evaluation,emotion,This room has calm vibes
+squad,A close group of friends or regular teammates,positive,May also refer literally to a military or sports unit,community,The whole squad showed up for her performance
+get rekt,A taunt telling someone they were decisively defeated,negative,Gaming insult; often stylized and sometimes playful,gaming,The rival typed get rekt after the round
+rekt,"Thoroughly defeated, ruined, or intoxicated",negative,Stylized wrecked; gaming and partying senses differ,status,We got rekt by that final boss
+newbie,An inexperienced newcomer,neutral,Can be helpful description or mild teasing,people,The server has a guide for every newbie
+leetspeak,Writing that replaces letters with numbers or symbols,neutral,Associated with older internet and gaming communities,internet,That username is written in leetspeak
+lulz,"Amusement, often from online jokes or trolling",context-dependent,Can refer to harmless fun or enjoyment at others' expense,humor,They said the silly edit was just for the lulz
+rofl,Rolling on the floor laughing,context-dependent,Exaggerated text laughter; can express mockery,abbreviation,Rofl that impression was too accurate
+AFAIK,As far as I know,neutral,Qualifies a statement; does not guarantee accuracy,abbreviation,AFAIK the library closes at ten
+AFK,Away from keyboard,neutral,Usually indicates temporary unavailability in a game or chat,abbreviation,AFK for a minute while I get water
+AMA,Ask me anything,neutral,Often introduces a question-and-answer forum or session,abbreviation,The designer is hosting an AMA tonight
+AITA,Am I the asshole; asking whether one's behavior was wrong,context-dependent,Vulgar forum abbreviation; a question rather than an admission,abbreviation,AITA for leaving before the meeting ended
+ATM,At the moment,neutral,Can instead refer to a cash machine; inspect context,abbreviation,I am in class ATM
+BRB,Be right back,neutral,Signals a short absence from a chat or activity,abbreviation,BRB someone is at the door
+BBL,Be back later; also Brazilian butt lift,neutral,Chat absence and cosmetic-procedure senses differ,abbreviation,Heading out now BBL
+BBIAB,Be back in a bit,neutral,Usually a temporary chat or gaming absence,abbreviation,BBIAB after I finish lunch
+B4,Before,neutral,Text-message spelling; can be a cell reference or code,abbreviation,Text me B4 you leave
+B4N,Bye for now,neutral,Usually a friendly temporary farewell,abbreviation,I need to run B4N
+BC,Because,neutral,Can also mean before Christ or other initials,abbreviation,I stayed home BC it was raining
+BTW,By the way,neutral,Introduces an aside; sentiment comes from that aside,abbreviation,BTW your book is on my desk
+BFF,Best friends forever,positive,Usually affectionate; sometimes exaggerated or ironic,abbreviation,She has been my BFF since school
+BF,Boyfriend; sometimes best friend,neutral,Choose the expansion from relationship context,abbreviation,My BF is joining us for dinner
+GF,Girlfriend,neutral,Can also mean gluten-free in food contexts,abbreviation,My GF recommended that movie
+BDAY,Birthday,neutral,Common casual shortening in messages and captions,abbreviation,Happy BDAY hope you have fun
+CYA,See you; also cover your ass,context-dependent,Farewell and self-protection meanings require context,abbreviation,I am logging off CYA tomorrow
+DM,Direct message,neutral,May be a noun or a request to message privately,abbreviation,DM me the address when you can
+DND,Do not disturb,neutral,Can also refer to Dungeons and Dragons,abbreviation,My phone is on DND during study time
+DAE,Does anyone else,neutral,Usually introduces a question seeking shared experience,abbreviation,DAE keep forgetting which day it is
+DFTBA,Don't forget to be awesome,positive,Often an encouraging sign-off in online communities,abbreviation,Good luck with your exam DFTBA
+DTR,Define the relationship,neutral,Usually a conversation about romantic expectations or status,abbreviation,They decided it was time to DTR
+ELI5,Explain like I'm five; explain in simple terms,neutral,Usually requests clarity rather than literally addressing a child,abbreviation,Can someone ELI5 how this works
+F2F,Face to face,neutral,Describes an in-person interaction; may have other niche uses,abbreviation,We should talk F2F after class
+FTFY,Fixed that for you,context-dependent,Can be helpful correction or sarcastic rewriting,abbreviation,I changed the typo FTFY
+FYI,For your information,context-dependent,"May be informative, curt, or confrontational depending on wording",abbreviation,FYI the deadline moved to Friday
+FWIW,For what it's worth,neutral,Qualifies the relevance of a contribution,abbreviation,FWIW I thought your explanation was clear
+GGWP,Good game well played,positive,Usually sportsmanlike praise; can be sarcastic,abbreviation,GGWP that was a close match
+GL,Good luck,positive,Often a supportive gaming or texting sign-off,abbreviation,GL with your presentation today
+GLHF,Good luck have fun,positive,Usually a friendly greeting before a game,abbreviation,GLHF everyone see you in the arena
+GN,Good night,neutral,Usually a friendly sign-off; tone depends on the exchange,abbreviation,I am heading to bed GN
+GM,Good morning,neutral,Can instead mean game master or general manager,abbreviation,GM hope everyone slept well
+GTG,Got to go; sometimes good to go,neutral,Departure and readiness senses need sentence context,abbreviation,My ride is here GTG
+HBU,How about you,neutral,Usually returns a question to another person,abbreviation,I am doing fine HBU
+HRU,How are you,neutral,A casual greeting or check-in,abbreviation,Hey HRU today
+HBD,Happy birthday,positive,Usually a friendly greeting,abbreviation,HBD enjoy your day
+IDC,I don't care,context-dependent,"Can be dismissive, indifferent, or reassuring",abbreviation,IDC which restaurant we choose
+IDK,I don't know,neutral,Usually uncertainty; may be dismissive in some exchanges,abbreviation,IDK when the bus arrives
+IDTS,I don't think so,context-dependent,Can express uncertainty or disagreement,abbreviation,Will the room be open IDTS
+IDGAF,I don't give a fuck,context-dependent,Vulgar indifference or defiance; target and tone matter,abbreviation,IDGAF what the trolls think of my art
+IK,I know,context-dependent,"May express agreement, reassurance, or impatience",abbreviation,IK that ending surprised me too
+IKR,I know right,context-dependent,Usually emphatic agreement; may be sarcastic,abbreviation,IKR that view was incredible
+ILY,I love you,positive,"Affection can be romantic, friendly, or joking",abbreviation,Thanks for helping me today ILY
+IMHO,In my humble opinion,neutral,Qualifies an opinion; can be ironic,abbreviation,IMHO the first version was clearer
+IMO,In my opinion,neutral,Sentiment comes from the opinion that follows,abbreviation,IMO that was the strongest episode
+IMY,I miss you,context-dependent,Often affection mixed with sadness about absence,abbreviation,Campus feels quiet without you IMY
+ISTG,I swear to God,context-dependent,"Emphasis for sincerity, frustration, surprise, or threats",abbreviation,ISTG I left my keys right here
+IIRC,If I recall correctly,neutral,Marks uncertain memory rather than verified fact,abbreviation,IIRC the exam starts at nine
+JK,Just kidding,context-dependent,Marks a joke; does not automatically undo an insult,abbreviation,I ate every cookie JK I saved you two
+JIC,Just in case,neutral,Usually introduces a precaution or contingency,abbreviation,Bring a charger JIC the battery runs low
+JW,Just wondering,neutral,Softens a question; can be used sarcastically,abbreviation,JW if you are coming to the event
+K,OK; a brief acknowledgment,context-dependent,"Can feel neutral, terse, or irritated; also a letter",abbreviation,K I will meet you outside
+KK,OK; a casual acknowledgment,neutral,Often friendly or routine; tone depends on the exchange,abbreviation,KK sending it now
+L8R,Later,neutral,Usually a casual farewell or timing reference,abbreviation,Talk to you L8R
+LMAO,Laughing my ass off,context-dependent,Vulgar laughter; can be friendly amusement or ridicule,abbreviation,LMAO that blooper was perfect
+LMFAO,Laughing my fucking ass off,context-dependent,A more emphatic vulgar laughter marker,abbreviation,LMFAO I did not expect that costume
+LOL,Laughing out loud,context-dependent,"May express amusement, soften a statement, or signal sarcasm",abbreviation,LOL I made the same mistake
+LMK,Let me know,neutral,Usually a request for information or a decision,abbreviation,LMK when you get home
+LTNS,Long time no see,positive,Usually a friendly greeting after an absence,abbreviation,LTNS how have you been
+MFW,My face when,context-dependent,Introduces a reaction image or imagined expression,abbreviation,MFW I realize the deadline is tonight
+MRW,My reaction when,context-dependent,Usually introduces a meme or reaction description,abbreviation,MRW the professor cancels the quiz
+MYOB,Mind your own business,negative,Usually a rebuke; can be playful among friends,abbreviation,He replied MYOB to the nosy question
+NBD,No big deal,context-dependent,Can reassure or minimize someone else's concern,abbreviation,NBD I can send another copy
+NGL,Not gonna lie,context-dependent,Signals candor; sentiment belongs to the statement that follows,abbreviation,NGL that was harder than I expected
+NVM,Never mind,context-dependent,Can withdraw a request or convey frustration,abbreviation,NVM I found the missing page
+NP,No problem,positive,Usually reassurance or a courteous reply to thanks,abbreviation,NP happy to help with the notes
+NTY,No thank you,context-dependent,Can be polite refusal or a blunt rejection,abbreviation,NTY I already have a copy
+NSFL,Not safe for life; warning of extremely disturbing content,negative,Usually a content warning rather than an evaluation of the reader,abbreviation,The moderator added an NSFL warning
+OFC,Of course,context-dependent,"May sound friendly, obvious, impatient, or sarcastic",abbreviation,OFC you can borrow my charger
+OMG,Oh my God,context-dependent,"Expresses surprise, delight, fear, or frustration",abbreviation,OMG the results are finally posted
+OMFG,Oh my fucking God,context-dependent,Vulgar expression of strong surprise or emotion,abbreviation,OMFG that final score is unbelievable
+OOTD,Outfit of the day,neutral,Common caption for fashion posts,abbreviation,Here is my OOTD for the concert
+OTW,On the way,neutral,Usually a travel or delivery update,abbreviation,I am OTW to the cafe
+OTP,One true pairing; also on the phone or one-time password,context-dependent,"Fandom, availability, and security contexts use different senses",abbreviation,Those two characters are my OTP
+OP,Original poster; also overpowered,neutral,Forum authorship and gaming balance meanings differ,abbreviation,OP added more details in the comments
+OOMF,One of my followers or one of my friends,neutral,Often refers indirectly to someone on social media,abbreviation,OOMF recommended this playlist
+PLS,Please,neutral,"Can be sincere, exaggerated pleading, or a joking reaction",abbreviation,PLS send the room number
+PM,Private message,neutral,Can also refer to afternoon time or a job title,abbreviation,Send me a PM with the details
+PPL,People,neutral,Common casual shortening; may have unrelated technical meanings,abbreviation,How many PPL are joining us
+QOTD,Question of the day; also quote of the day,neutral,Common prompt or caption marker,abbreviation,QOTD what song is on repeat for you
+RIP,Rest in peace; also a joking reaction to failure or loss,context-dependent,Distinguish genuine bereavement from humorous exaggeration,abbreviation,RIP my weekend plans after that assignment
+RT,Retweet; sometimes an expression of agreement,context-dependent,Can describe reposting or figuratively endorse a sentiment,abbreviation,RT I also need a nap
+SFW,Safe for work,neutral,A content classification rather than a positive sentiment,abbreviation,The edited version is SFW
+STFU,Shut the fuck up,negative,Vulgar command; sometimes exaggerated surprise among friends,abbreviation,He replied STFU during the argument
+TBH,To be honest,context-dependent,Introduces candor; sentiment follows the actual statement,abbreviation,TBH I liked the quieter ending
+TBF,To be fair,neutral,Usually introduces a qualification or balancing point,abbreviation,TBF she had very little time to prepare
+TBT,Throwback Thursday,neutral,Common tag for a nostalgic photo or memory,abbreviation,Posting our old class photo for TBT
+TFW,That feeling when,context-dependent,Introduces a relatable reaction or meme,abbreviation,TFW your last class gets canceled
+TIL,Today I learned,neutral,Usually introduces newly discovered information,abbreviation,TIL that building used to be a cinema
+TLDR,Too long didn't read; a short summary,context-dependent,Can label a helpful summary or dismiss a lengthy message,abbreviation,TLDR the event moved to Saturday
+TTYL,Talk to you later,neutral,Usually a friendly temporary farewell,abbreviation,My class is starting TTYL
+TY,Thank you,positive,Usually gratitude; can be sarcastic in context,abbreviation,TY for sending the notes
+TYSM,Thank you so much,positive,Usually emphatic gratitude,abbreviation,TYSM for helping me move
+WBU,What about you,neutral,Usually returns a question to the other person,abbreviation,I am free on Friday WBU
+WYD,What are you doing,neutral,"Can be a casual check-in, flirtation, or challenge",abbreviation,WYD after your last class
+WYA,Where are you at,neutral,Usually asks someone's location or availability,abbreviation,WYA we are by the main entrance
+WTF,What the fuck,context-dependent,"Vulgar expression of shock, confusion, anger, or amazement",abbreviation,WTF happened to the rest of the file
+WTH,What the hell,context-dependent,"Expresses surprise, frustration, or confusion",abbreviation,WTH why is the room locked
+XOXO,Hugs and kisses,positive,Often an affectionate sign-off; can be ironic,abbreviation,Miss you already XOXO
+YKWIM,You know what I mean,neutral,Seeks shared understanding or checks an implied meaning,abbreviation,The ending felt rushed YKWIM
