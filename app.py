@@ -437,7 +437,6 @@ if mode == "Analyze existing CSV":
         )
     else:
         df = prepare_comments(raw)
-        st.success(f"Loaded {len(df):,} text rows from {dataset_source}.")
         # Evaluation metrics appear automatically only when human-reviewed labels are present.
 
         # Clear old results if the input dataset changes, preventing stale predictions.
