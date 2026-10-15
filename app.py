@@ -91,8 +91,11 @@ def add_flags(df):
         lambda x: bool(re.search(r"[^\w\s.,!?']", x))
     )
     df["repeated_punctuation"] = text.str.contains(
-        r"([!?.,])\1{1,}", regex=True
+    r"[!?.,]{2,}",
+    regex=True,
+    na=False
     )
+
 
     if {"vader_sentiment", "roberta_sentiment"}.issubset(df.columns):
         df["model_disagreement"] = (
