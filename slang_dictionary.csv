@@ -1,0 +1,99 @@
+term,meaning,sentiment_hint,context_note,category,example
+ate,Did exceptionally well; delivered an impressive performance,positive,Usually praise; can be literal in food-related context,praise,She ate that performance 🔥
+ate and left no crumbs,Did something extremely well,positive,Usually enthusiastic praise,praise,She ate and left no crumbs
+rizz,Charm or flirting ability,context-dependent,"Can be praise, teasing, or criticism depending on tone",social,Bro has rizz
+no cap,Honestly; not lying,context-dependent,Emphasis phrase; sentiment comes from the surrounding statement,emphasis,"That was the best episode, no cap"
+cap,A lie or exaggeration,negative,Can also mean a literal hat; inspect context,slang,That's cap
+mid,Mediocre; underwhelming,negative,"Usually mild criticism, but can be playful",criticism,The movie was mid
+cooked,"In trouble, defeated, exhausted, or in a bad situation",context-dependent,Could be literal cooking; often humorous exaggeration online,status,Bro is cooked 💀
+let him cook,Let someone continue; they may be onto something,context-dependent,Can signal support or ironic skepticism,meme,"Wait, let him cook"
+cooking,Doing something impressive or developing a good idea,positive,Can be literal food preparation,praise,She's cooking with this idea
+fire,"Excellent, exciting, or impressive",positive,Can be literal fire or a safety issue in other contexts,praise,This track is fire 🔥
+lit,"Exciting, excellent, or lively",positive,Can refer literally to something illuminated or ignited,praise,That concert was lit
+slay,Do something exceptionally well or look great,positive,Often praise; meaning depends on target and context,praise,You slayed that look
+goat,Greatest of all time; an exceptional person,positive,May refer literally to the animal,praise,She's the GOAT 🐐
+goated,Exceptionally good or highly respected,positive,Usually praise,praise,That game is goated
+based,Admirable for being authentic or unapologetic,positive,Can be ironic or politically/community specific,approval,Based take
+sus,Suspicious or questionable,negative,Can be playful teasing rather than serious accusation,criticism,That sounds sus
+ripped,Very muscular or torn apart,context-dependent,Highly context-dependent; not a reliable slang sentiment cue alone,description,Bro is ripped
+valid,"Reasonable, understandable, or worthy of approval",positive,Can be a neutral statement of legitimacy,approval,Your feelings are valid
+real,"Relatable, authentic, or strongly agreed with",positive,Can be literal or neutral depending on context,agreement,So real for that
+real one,"A loyal, dependable, or admirable person",positive,Usually praise,praise,You're a real one
+IYKYK,"If you know, you know; refers to shared context",context-dependent,Meaning depends heavily on community or prior context,community,That ending... IYKYK
+it's giving,It has the vibe or impression of something,context-dependent,The following phrase determines the sentiment,description,It's giving main character
+main character energy,Confidence or behavior that makes someone seem central or iconic,context-dependent,Can be complimentary or critical,identity,Main character energy
+delulu,"Delusional, often playfully or aspirationally",context-dependent,"Can be affectionate, self-mocking, or insulting",identity,Delulu is the solulu
+solulu,"A playful shortening of solution, often in the phrase 'delulu is the solulu'",context-dependent,Usually humorous wordplay,meme,Delulu is the solulu
+rizzler,Someone perceived as having strong charm or flirting ability,context-dependent,Often joking or ironic,social,The rizzler has arrived
+aura,"Perceived coolness, charisma, or presence",context-dependent,May be praise or a joke about losing/gaining 'aura points',status,Infinite aura
+aura points,Imaginary points for cool or embarrassing actions,context-dependent,Positive or negative depends on the action described,meme,Lost 1000 aura points
+aura farming,Deliberately acting cool or impressive to build an image,context-dependent,Can be admiration or mockery,meme,Bro is aura farming
+crashout,A person or act of losing control and behaving recklessly,negative,May be used humorously; consider severity and context,behavior,He's about to crash out
+glazing,"Excessive praise or admiration, often seen as undeserved",negative,Usually criticism or teasing about overpraising someone,criticism,Stop glazing him
+lock in,Focus seriously or commit to a task,positive,Usually motivational; can be neutral instruction,motivation,Time to lock in
+let's go,Expression of excitement or encouragement,positive,Can be sarcastic in context,reaction,Let's goooo!
+W,"A win, success, or something good",positive,Could refer to the letter W in literal contexts,reaction,Huge W
+L,"A loss, failure, or embarrassing outcome",negative,Could refer to the letter L or other literal uses,reaction,Common L
+take the L,Accept a loss or failure,negative,Can be playful or teasing,reaction,Take the L and move on
+ratio,"When replies or engagement outnumber or overpower a post, often as criticism",negative,Social-media context is important,social,You got ratioed
+touch grass,Go outside or reconnect with real life; often a dismissive rebuke,negative,Can be playful among friends,criticism,Please touch grass
+rent-free,Something or someone occupies one's thoughts a lot,context-dependent,"May be admiration, annoyance, or teasing",social,He's living rent-free in your head
+living for this,Really enjoying or enthusiastically supporting something,positive,Usually praise or excitement,reaction,I'm living for this outfit
+I'm dead,Something is extremely funny or shocking,positive,Often humorous reaction; not literal death,reaction,I'm dead 💀
+💀,"Often indicates laughter, disbelief, or embarrassment",context-dependent,Emoji meaning depends on surrounding text and community,emoji,That was wild 💀
+😭,"Often indicates laughter, being overwhelmed, sadness, or pleading",context-dependent,Do not infer sadness from emoji alone,emoji,This is too funny 😭
+🔥,"Often signals excellence, excitement, or approval",positive,Can be literal fire or indicate danger in context,emoji,This edit is 🔥
+clown,Someone acting foolishly; an insult or self-deprecating joke,negative,May be playful or directed at oneself,insult,I'm a clown for believing that
+bruh,"Expression of disbelief, frustration, surprise, or amusement",context-dependent,Strongly dependent on surrounding text,reaction,Bruh what was that
+bro,Informal address or reaction marker,context-dependent,Not inherently slang sentiment; sentiment comes from context,address,Bro really did that
+bestie,"Friendly term of address, sometimes sincere or sarcastic",context-dependent,Can be affectionate or passive-aggressive,address,"Bestie, what is this"
+pookie,"Affectionate nickname, often playful or ironic",context-dependent,Meaning depends on relationship and tone,address,Pookie ate
+yap,Talk excessively; 'yapping' can be dismissive,negative,May be playful teasing,criticism,Bro won't stop yapping
+yapping,"Talking at length, often perceived as unnecessary",negative,Context may make it affectionate or humorous,criticism,All that yapping for nothing
+lowkey,"Somewhat, secretly, or understatedly",context-dependent,Modifier rather than sentiment itself,modifier,Lowkey love this
+highkey,"Openly, strongly, or obviously",context-dependent,Modifier rather than sentiment itself,modifier,Highkey the best song
+it's not that deep,It is not very serious or worth overanalyzing,context-dependent,Can be calming or dismissive,reaction,It's not that deep bro
+pressed,"Upset, bothered, or defensive",negative,May be teasing rather than a serious claim,emotion,Why are you so pressed?
+salty,"Bitter, resentful, or annoyed",negative,Can be playful,emotion,He's salty about losing
+shook,"Surprised, shocked, or emotionally affected",context-dependent,Can be positive or negative,emotion,I'm shook
+ick,A sudden feeling of disgust or loss of attraction,negative,Usually negative in dating/social contexts,emotion,That gave me the ick
+ick factor,A quality that causes sudden dislike or disgust,negative,Context-dependent but generally negative,emotion,The ick factor is real
+simp,"Someone perceived as overly attentive or devoted, often romantically",context-dependent,"Can be insulting, joking, or reclaimed",social,He's simping for her
+NPC,"Someone perceived as generic, predictable, or lacking individuality",negative,Can be insulting or joking; also means non-player character literally,insult,NPC behavior
+brainrot,Absurd or highly absorbing internet content; sometimes self-mocking obsession,context-dependent,Can be criticism or affectionate humor,internet culture,This meme is brainrot
+skibidi,A meme-associated term with shifting or intentionally nonsensical meaning,context-dependent,Meaning is community- and trend-dependent; avoid a fixed sentiment assumption,meme,Skibidi energy
+sigma,"Internet archetype of an independent, self-reliant person, often ironic",context-dependent,Often meme usage; may be sincere or mocking,meme,Sigma move
+goofy ahh,"Ridiculous, silly, or absurd",context-dependent,Often teasing or humorous rather than hostile,humor,Goofy ahh walk
+caught in 4K,"Caught clearly doing something, often embarrassing or incriminating",context-dependent,Often teasing or critical,meme,Caught in 4K
+suspect,Suspicious or questionable; sometimes meme phrasing,negative,Context can be playful,criticism,Very suspect behavior
+understood the assignment,"Did exactly what was needed, often exceptionally well",positive,Usually praise,praise,She understood the assignment
+mother,"Slang praise for a woman seen as iconic, powerful, or admirable",positive,Not literal parenthood in fan-culture context,praise,Mother is mothering
+mothering,"Being iconic, confident, or impressively in control",positive,Not literal parenting in fan-culture context,praise,She's mothering
+banger,"An excellent song, track, or piece of content",positive,Usually praise,praise,This song is a banger
+goes hard,"Very impressive, powerful, or exciting",positive,Can refer literally to physical effort,praise,This beat goes hard
+peak,The best or an exceptionally good example,positive,Can also mean a high point literally,praise,Peak cinema
+peak fiction,An exceptionally good story or fictional work,positive,"Usually enthusiastic praise, often hyperbolic",praise,This is peak fiction
+yikes,"Expression of discomfort, disapproval, or embarrassment",negative,May be mild or humorous,reaction,"Yikes, that was awkward"
+oof,"Reaction to a mistake, awkward moment, or unfortunate event",context-dependent,"Can indicate sympathy, pain, or humor",reaction,"Oof, rough day"
+wild,"Extreme, surprising, unbelievable, or outrageous",context-dependent,"Can be praise, criticism, or neutral surprise",reaction,That ending was wild
+unhinged,"Extremely chaotic, uninhibited, or outrageous",context-dependent,Can be praise for humor or criticism,description,That comment is unhinged
+iconic,"Memorable, distinctive, or worthy of admiration",positive,Can be sarcastic,praise,That was iconic
+cringe,"Embarrassing, awkward, or socially uncomfortable",negative,Sometimes used jokingly or self-deprecatingly,criticism,That's so cringe
+wholesome,"Heartwarming, kind, or emotionally uplifting",positive,Usually positive,emotion,This is wholesome
+wholesome content,"Content perceived as kind, heartwarming, or uplifting",positive,Usually positive,content,Wholesome content
+ship,Want two people or characters to be romantically paired,context-dependent,Not inherently sentiment; fandom context matters,fandom,I ship them
+canon event,"An event framed as unavoidable or formative, often jokingly",context-dependent,Meme context; not inherently positive or negative,meme,It's a canon event
+delivered,Met or exceeded expectations,positive,Could be literal delivery in other contexts,praise,The finale delivered
+flopped,Failed to impress or perform well,negative,Could refer to literal movement or business metrics,criticism,That launch flopped
+fell off,"Declined in quality, popularity, or performance",negative,Could be literal falling in other contexts,criticism,This channel fell off
+washed,Past one's prime or no longer performing well,negative,Could refer literally to washing,criticism,He's washed
+goated with the sauce,Exceptionally good; exaggerated meme praise,positive,Usually ironic or playful,meme,Goated with the sauce
+valid take,An opinion considered reasonable or worthy,positive,May be sincere or sarcastic,approval,That's a valid take
+L take,An opinion judged bad or misguided,negative,Often teasing or confrontational,criticism,That's an L take
+W take,An opinion judged good or insightful,positive,Usually approval,approval,Huge W take
+ratioed,Received a stronger negative response than support,negative,Platform metrics and context matter,social,The post got ratioed
+delivered the goods,Performed as promised or met expectations,positive,Could be literal delivery,praise,The creator delivered the goods
+face card,"Someone's facial attractiveness, often in a compliment",positive,Can be objectifying or ironic depending on context,appearance,Face card never declines
+ate down,Performed extremely well,positive,Usually praise,praise,She ate down
+no notes,Nothing to criticize; excellent as is,positive,"Usually praise, sometimes sarcastic",approval,This look? No notes
+rent free in my head,Something repeatedly occupies one's thoughts,context-dependent,"Could signal admiration, annoyance, or obsession",social,That scene lives rent free in my head
