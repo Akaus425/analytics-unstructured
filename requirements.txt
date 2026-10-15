@@ -1,4 +1,3 @@
-
 streamlit
 pandas
 altair
@@ -6,4 +5,4 @@ vaderSentiment
 google-api-python-client
 transformers
 torch
-      
+scikit-learn
