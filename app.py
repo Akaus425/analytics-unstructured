@@ -156,6 +156,53 @@ def add_slang_analysis(df):
     hint_map = dictionary.set_index("term")["sentiment_hint"].to_dict()
     category_map = dictionary.set_index("term")["category"].to_dict()
 
+    # Context checks for common words that can be literal or slang.
+    # These rules are deliberately conservative: uncertain usage is not used
+    # to change a model's sentiment prediction.
+    def is_contextually_slang(term, lower):
+        escaped = re.escape(term)
+
+        if term in {"eat", "eats", "ate", "eaten", "eating"}:
+            # Literal food/eating contexts: do not treat as positive slang.
+            literal_food = r"\b(?:eat|eats|ate|eaten|eating)\b.{0,35}\b(?:breakfast|brunch|lunch|dinner|food|meal|pizza|burger|sandwich|snack|rice|noodles|cake|bread|pasta|chicken|fries|tacos|sushi)\b"
+            literal_negation = r"\b(?:didn['’]?t|don['’]?t|doesn['’]?t|can['’]?t|couldn['’]?t|won['’]?t|not)\s+(?:really\s+)?(?:eat|eats|ate|eaten|eating)\b"
+            if re.search(literal_food, lower) or re.search(literal_negation, lower):
+                return False
+            # Common praise constructions: "you ate", "she ate that up".
+            praise = r"\b(?:you|she|he|they|girl|boy|bro|sis|queen|king|bestie|that|this)\s+ate(?:\s+(?:that|it|this|up|and|no|down|so))?(?:[.!?,]|\s|$)"
+            no_crumbs = r"\bate\s+and\s+left\s+no\s+crumbs\b"
+            return bool(re.search(praise, lower) or re.search(no_crumbs, lower))
+
+        if term == "sick":
+            literal = r"\b(?:i am|i['’]m|i feel|feeling|got|have|has|was|is|are|been|being)\s+(?:really\s+|so\s+)?sick\b|\bsick\s+(?:today|yesterday|with|from|in bed)\b"
+            slang_positive = r"\b(?:that|this|so|really|pretty|looks|look|sounds|is|was)\s+(?:so\s+|really\s+)?sick\b"
+            if re.search(literal, lower):
+                return False
+            if re.search(slang_positive, lower):
+                return True
+
+        if term == "fire":
+            # Ignore literal fire/safety contexts; retain common praise uses.
+            if re.search(r"\b(?:on fire|fire alarm|fire truck|fire department|set .* on fire|put out the fire|house fire|wildfire)\b", lower):
+                return False
+            if re.search(r"\b(?:this|that|it's|it is|so|straight|absolute|looks|sounds)\b.{0,18}\bfire\b|\bfire\s+(?:song|track|fit|outfit|album|beat|🔥)", lower):
+                return True
+
+        if term == "dead":
+            if re.search(r"\b(?:died|death|dead body|dead animal|dead battery|dead phone|dead plant|dead pixel|dead person)\b", lower):
+                return False
+            if re.search(r"\b(?:i['’]?m|im|i am|we['’]?re|we are|literally|actually)\s+dead\b|\bdead\s+(?:😂|💀|😭)", lower):
+                return True
+
+        if term in {"killer", "crazy", "insane", "cold", "hard", "nasty", "wicked"}:
+            # For these polysemous terms, only treat them as slang when a
+            # nearby praise/intensifier cue exists; otherwise leave prediction alone.
+            praise_cue = r"\b(?:that|this|so|really|absolutely|straight|looks|sounds|what a|such a|is|was)\b.{0,20}\b" + escaped + r"\b|\b" + escaped + r"\b.{0,16}\b(?:song|track|fit|outfit|look|move|performance|joke|beat|jacket|game)\b"
+            return bool(re.search(praise_cue, lower))
+
+        # For unambiguous dictionary entries, keep the dictionary match.
+        return True
+
     def find_slang(comment):
         found = []
         lower = comment.lower()
@@ -165,7 +212,7 @@ def add_slang_analysis(df):
                 pattern = r"(?<!\w)" + re.escape(term) + r"(?!\w)"
             else:
                 pattern = re.escape(term)
-            if re.search(pattern, lower):
+            if re.search(pattern, lower) and is_contextually_slang(term, lower):
                 found.append(term)
         return found
 
@@ -347,6 +394,7 @@ def show_dashboard(df):
         st.caption("Agreement is not accuracy; human-reviewed labels are needed to assess correctness.")
 
     st.subheader("4. Investigate slang impact")
+    st.caption("Context-aware matching filters selected literal uses (for example, eating meals or being physically sick). These are conservative rules, not a full language-understanding system; ambiguous cases may still need human review.")
     slang_comments = df[df["possible_slang"]].copy() if "possible_slang" in df.columns else pd.DataFrame()
     st.metric("Comments with dictionary terms", f"{len(slang_comments):,}")
     if not slang_comments.empty:
