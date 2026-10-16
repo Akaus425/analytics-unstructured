@@ -162,16 +162,27 @@ def add_slang_analysis(df):
     def is_contextually_slang(term, lower):
         escaped = re.escape(term)
 
+        # Common everyday words that should not be treated as slang merely
+        # because they appear in an expanded dictionary.
+        ordinary_words = {"real", "mental", "cash"}
+        if term in ordinary_words:
+            return False
+
         if term in {"eat", "eats", "ate", "eaten", "eating"}:
             # Literal food/eating contexts: do not treat as positive slang.
             literal_food = r"\b(?:eat|eats|ate|eaten|eating)\b.{0,35}\b(?:breakfast|brunch|lunch|dinner|food|meal|pizza|burger|sandwich|snack|rice|noodles|cake|bread|pasta|chicken|fries|tacos|sushi)\b"
             literal_negation = r"\b(?:didn['’]?t|don['’]?t|doesn['’]?t|can['’]?t|couldn['’]?t|won['’]?t|not)\s+(?:really\s+)?(?:eat|eats|ate|eaten|eating)\b"
             if re.search(literal_food, lower) or re.search(literal_negation, lower):
                 return False
-            # Common praise constructions: "you ate", "she ate that up".
-            praise = r"\b(?:you|she|he|they|girl|boy|bro|sis|queen|king|bestie|that|this)\s+ate(?:\s+(?:that|it|this|up|and|no|down|so))?(?:[.!?,]|\s|$)"
-            no_crumbs = r"\bate\s+and\s+left\s+no\s+crumbs\b"
-            return bool(re.search(praise, lower) or re.search(no_crumbs, lower))
+            # Only count "ate" as slang when there is stronger praise evidence.
+            # A bare "they ate ..." is not enough because it can be literal.
+            praise = r"\\b(?:you|she|he|they|girl|boy|bro|sis|queen|king|bestie|that|this)\\s+ate\\s+(?:that|it|this|up)\\b"
+            standalone_praise = r"\\b(?:you|she|he|they|girl|boy|bro|sis|queen|king|bestie)\\s+ate[.!?]+(?:\\s|$)"
+            no_crumbs = r"\\bate\\s+and\\s+left\\s+no\\s+crumbs\\b"
+            praise_cues = r"\\b(?:slay|iconic|amazing|incredible|perfect|flawless|queen|🔥|👏)\\b"
+            if re.search(literal_food, lower) or re.search(literal_negation, lower):
+                return False
+            return bool(re.search(praise, lower) or re.search(standalone_praise, lower) or re.search(no_crumbs, lower) or re.search(praise_cues, lower))
 
         if term == "sick":
             literal = r"\b(?:i am|i['’]m|i feel|feeling|got|have|has|was|is|are|been|being)\s+(?:really\s+|so\s+)?sick\b|\bsick\s+(?:today|yesterday|with|from|in bed)\b"
